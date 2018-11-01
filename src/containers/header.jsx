@@ -6,13 +6,13 @@ import * as actions from '../actions'
 
 class Header extends Component {
     handleAuthenticationClick= () => {
-        const {isLoggedIn, setAuthentication} = this.props
+        const {isLoggedIn, setAuthentication} = this.props;
 
         setAuthentication(!isLoggedIn)
     }
 
     render () {
-        const {isLoggedIn} = this.props
+        const {isLoggedIn} = this.props;
 
         return (
             <div>

@@ -1,13 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-class Resources extends Component  {
-    render () {
-        return (
-            <div>
-            La page des ressources !
-            </div>
-        )
-    }
+export default class Resources extends React.Component {
+  render() {
+    return <div>La page des ressources !</div>;
+  }
 }
-
-export default (Resources)
